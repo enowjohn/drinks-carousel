@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a';
+  const apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a'
   let drinks = []
   let currentDrinkIndex = 0
   let autoSwitch = true
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
       )
     })
 
-  function showCurrentDrink() {
+  function showCurrentDrink () {
     if (drinks.length > 0) {
       const currentDrink = drinks[currentDrinkIndex]
       drinkImage.src = currentDrink.strDrinkThumb
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  function nextDrink() {
+  function nextDrink () {
     currentDrinkIndex = (currentDrinkIndex + 1) % drinks.length
     showCurrentDrink()
   }
