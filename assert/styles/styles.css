@@ -33,7 +33,6 @@ body {
     opacity: 0;
     transform: translateY(-50px);
   }
-
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -44,11 +43,12 @@ body {
   0% {
     opacity: 0;
   }
-  
+
   100% {
     opacity: 1;
   }
 }
+
 .control-btn {
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
@@ -95,7 +95,6 @@ body {
   cursor: pointer;
   margin: 10px;
   transition: background-color 0.3s ease;
-  /* Add fadeIn animation */
   opacity: 0;
   animation: fade-in 2s ease-in-out forwards;
 }
