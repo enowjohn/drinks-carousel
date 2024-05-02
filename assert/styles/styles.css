@@ -20,6 +20,7 @@ body {
 .drink-container {
   border: 1px solid #bdbdbd;
   padding: 20px;
+  background-color: #fff;
   box-shadow: #000;
   opacity: 0;
   transform: translateY(20px);
@@ -27,31 +28,28 @@ body {
   position: relative;
 }
 
-@keyframes slide-in {
+@keyframes slideIn {
   0% {
     opacity: 0;
     transform: translateY(-50px);
   }
-
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-@keyframes fade-in {
+@keyframes fadeIn {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 .control-btn {
   opacity: 0;
-  animation: fadeIn 2s ease-in-out forwards;
+  animation: fade-in 2s ease-in-out forwards;
 }
 
 #drink-image {
@@ -103,7 +101,6 @@ body {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -119,7 +116,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10; /* Keep buttons above other elements */
+  z-index: 11; 
 }
 
 #prev {
