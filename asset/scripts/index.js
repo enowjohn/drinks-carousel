@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const drinkDescription = document.getElementById('drink-description')
   const drinkDetails = document.querySelector('.drink-details')
   const viewDetailsButton = document.getElementById('view-details')
-  const modal = document.getElementById('myModal')
+  const modal = document.getElementById('mymodal')
   const modalClose = document.getElementsByClassName('close')[0]
   const modalDrinkName = document.getElementById('modal-drink-name')
   const modalDrinkImage = document.getElementById('modal-drink-image')
@@ -93,7 +93,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
     })
-  
     
     modalSteps.innerHTML = ''
     modalSteps.appendChild(stepsList)
@@ -127,4 +126,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   })
 })
-
