@@ -94,8 +94,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     })
     
-    modalSteps.innerHTML = ''
-    modalSteps.appendChild(stepsList)
+    modalsteps.innerHTML = ''
+    modalsteps.appendChild(stepsList)
   
    
     modal.style.display = 'block'
