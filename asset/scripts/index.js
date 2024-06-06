@@ -48,20 +48,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function nextDrink () {
     currentDrinkIndex = (currentDrinkIndex + 1) % drinks.length
-    showCurrentDrink ()
+    showCurrentDrink()
   }
 
-  function prevDrink() {
+  function prevDrink () {
     currentDrinkIndex = (currentDrinkIndex - 1 + drinks.length) % drinks.length
-    showCurrentDrink ()
+    showCurrentDrink()
   }
 
   document.getElementById('prev').addEventListener('click', () => {
-    prevDrink ()
+    prevDrink()
   })
 
   document.getElementById('next').addEventListener('click', () => {
-    nextDrink ()
+    nextDrink()
   })
 
   viewDetailsButton.addEventListener('click', () => {
