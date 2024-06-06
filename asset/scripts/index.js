@@ -46,16 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  // var menu = document.getElementById('menu');
-
-  // menuBar.addEventListener('click', function() {
-  //     if (menu.style.display === 'block') {
-  //         menu.style.display = 'none';
-  //     } else {
-  //         menu.style.display = 'block';
-  //     }
-  // });
-
   function nextDrink () {
     currentDrinkIndex = (currentDrinkIndex + 1) % drinks.length
     showCurrentDrink ()
@@ -67,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   document.getElementById('prev').addEventListener('click', () => {
-    prevDrink()
+    prevDrink ()
   })
 
   document.getElementById('next').addEventListener('click', () => {
