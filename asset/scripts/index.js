@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   modalClose.addEventListener('click', () => {
     modal.style.display = 'none'
-    intervalId = setInterval(nextDrink, 3000);
+    intervalId = setInterval(nextDrink, 3000)
   })
 
   window.addEventListener('click', (event) => {
@@ -111,3 +111,4 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   })
 })
+
