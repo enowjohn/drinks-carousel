@@ -81,6 +81,16 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     })
 
+    let modalsteps // Define the variable
+
+// Now you can use modalsteps in your code
+modalsteps = document.querySelectorAll('.modal-step')
+
+for (let step of modalsteps) {
+  // Do something with each step
+}
+
+
     modalsteps.innerHTML = ''
     modalsteps.appendChild(stepsList)
 
